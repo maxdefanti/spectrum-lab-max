@@ -10,7 +10,7 @@ img = cv.cvtColor(img, cv.COLOR_RGB2BGR)
 
 im2write = np.zeros((1080,1920,3))
 
-# change rgb values to meet your shadows color values
+# change rgb values to meet your shadow's color values
 
 for x in range(1080):
    for y in range(1920):
