@@ -44,4 +44,4 @@ for x in range(1080):
 def distanceForm(x1, y1, x2, y2):
      return '{0:.4f}'.format(sqrt((x1 - x2)**2 + (y1 - y2)**2))
 
-print(distanceForm(xPix4y[0], cY, cX, yPix4x[0]), " pixels biaaaaatch")
+print(distanceForm(xPix4y[0], cY, cX, yPix4x[0]), " pixels")
