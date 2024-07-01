@@ -5,10 +5,12 @@ from matplotlib import pylab as plt
 import cv2 as cv
 from math import *
 
-img = cv.imread('processed.jpeg')
+img = cv.imread('PUT YOUR FILE HERE')
 img = cv.cvtColor(img, cv.COLOR_RGB2BGR)
 
 im2write = np.zeros((1080,1920,3))
+
+# change rgb values to meet your shadows color values
 
 for x in range(1080):
    for y in range(1920):
